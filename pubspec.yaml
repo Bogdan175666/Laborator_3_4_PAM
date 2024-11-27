@@ -1,0 +1,32 @@
+name: lab2mobile
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/v2.json
+    - assets/images/avatar.svg
+    - assets/images/avatar.png
+    - assets/images/logo.png
+    - assets/images/pict.png
+    - assets/images/backgraund.jpg
+    - assets/images/alana.png
+    - assets/images/barberking.png
+    - assets/images/hercha.png
+  uses-material-design: true
